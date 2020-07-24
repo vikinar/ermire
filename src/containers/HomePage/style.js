@@ -265,9 +265,15 @@ const style = css`
             align-items: center;
           }
           
+          .section-c{
+            background: darkblue;
+          }
+          
           .brief{
             display: flex;
             align-items: center;
+            background: darkblue;
+            width: 100%;
             &-block{
               display:flex;
               flex-direction: column;

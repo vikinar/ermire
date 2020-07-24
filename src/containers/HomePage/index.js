@@ -119,7 +119,7 @@ export const HomePage = () => {
                                         ))}
                                     </section>
                                 </section>
-                                <section className="section" ref={contact}>
+                                <section className="section section-c" ref={contact}>
                                     <section>
                                         <section className="brief">
                                             <section className="brief-block">
@@ -143,7 +143,16 @@ export const HomePage = () => {
                                                     }}
                                                     onSubmit={async values => {
                                                         await new Promise(resolve => setTimeout(resolve, 500));
-                                                        alert(JSON.stringify(values, null, 2));
+                                                        const req = await fetch(`http://localhost:3000/api/order-form`, {
+                                                            method: 'POST',
+                                                            mode: 'cors',
+                                                            headers: {
+                                                                'Content-Type': 'application/json',
+                                                            },
+                                                            body: JSON.stringify(values)
+                                                        }).then(response => {
+                                                                return response.json()
+                                                            })
                                                     }}
                                                 >
                                                     {props => {
