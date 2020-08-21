@@ -15,6 +15,7 @@ main{
         flex-wrap: wrap;
       .card{
          width: 100%;
+         height: 20rem;
          background: rgb(0,0,139);
          background: linear-gradient(135deg, rgba(0,0,139,1) 0%, rgba(0,91,255,1) 100%);
          color: white;
@@ -26,10 +27,10 @@ main{
           font-weight: 500;
          }
          &:not(:last-child){
-            margin-right: 1.5rem;
+            margin-right: 1.5rem; 
          }
          &:first-child{
-          margin-top: 2rem;
+          
          }
          ul{
           list-style: none;

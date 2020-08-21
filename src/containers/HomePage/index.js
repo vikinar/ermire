@@ -145,10 +145,6 @@ export const HomePage = () => {
                                                         await new Promise(resolve => setTimeout(resolve, 500));
                                                         const req = await fetch(`http://localhost:3000/api/order-form`, {
                                                             method: 'POST',
-                                                            mode: 'cors',
-                                                            headers: {
-                                                                'Content-Type': 'application/json',
-                                                            },
                                                             body: JSON.stringify(values)
                                                         }).then(response => {
                                                                 return response.json()

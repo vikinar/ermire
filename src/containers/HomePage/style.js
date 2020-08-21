@@ -266,13 +266,15 @@ const style = css`
           }
           
           .section-c{
-            background: darkblue;
+            background: white;
+            height: 100%;
           }
           
           .brief{
             display: flex;
+            height: 100%;
             align-items: center;
-            background: darkblue;
+            background: white;
             width: 100%;
             &-block{
               display:flex;
