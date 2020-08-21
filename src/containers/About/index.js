@@ -6,12 +6,12 @@ import style from './style'
 
 export const About = () => (
     <Layout>
-    <section className="about">
+    <section className="about text-blue-900">
     <Head>
 
     </Head>
         <div className="container">
-            <h1>About</h1>
+            <h1 className='text-xs mt-6'>About</h1>
         </div>
         <style jsx> {style}</style>
     </section>

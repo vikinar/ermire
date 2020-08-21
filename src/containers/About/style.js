@@ -2,7 +2,6 @@ import css from "styled-jsx/css";
 
 const style = css`
   .about{
-    color: white;
     width: 100%;
     padding: 0;
     margin: 0;

@@ -16,11 +16,6 @@ const style = css`
             grid-column: span 11;
           }
           
-          .flex{
-            display: inline-flex;
-            align-items: center;
-            width: 100%;
-          }
           .header{
             position: relative;
             display: flex;
@@ -118,8 +113,8 @@ const style = css`
             flex-direction: column;
             justify-content: flex-start;
             width: 90%;
-              font-size: 8rem; 
-              font-weight: 600; 
+              font-size: 6rem; 
+              font-weight: 700; 
               position: relative;
               transition: ease-out .5s;
               margin: 0;

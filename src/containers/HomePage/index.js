@@ -121,6 +121,7 @@ export const HomePage = () => {
                                 </section>
                                 <section className="section section-c" ref={contact}>
                                     <section>
+                                        <div className='w-2/12'></div>
                                         <section className="brief">
                                             <section className="brief-block">
                                                 <div className="brief__title">

@@ -8,7 +8,7 @@ import Layout from "../components/Layout";
 import Router from 'next/router';
 import NProgress from 'nprogress'; //nprogress module
 import 'nprogress/nprogress.css'; //styles of nprogress
-import { PageTransition } from 'next-page-transitions'
+import '../styles/styles.scss'
 
 
 //Binding events.

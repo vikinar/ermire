@@ -7,8 +7,9 @@ import {layout} from './style'
 import {PageTransition} from "next-page-transitions";
 const TIMEOUT = 1000
 import {Provider} from "react-redux";
-import Header from "./Header";
+import Main from "./Header";
 import Footer from './Footer'
+import Header from "./Header";
 
 const Layout = ({children}) => {
     return (

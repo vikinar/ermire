@@ -15,8 +15,6 @@
     ],
     "/_app": [
       "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
     "/_error": [
@@ -26,7 +24,7 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/admin/orders": [
+    "/about": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

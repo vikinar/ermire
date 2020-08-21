@@ -6,7 +6,7 @@ const Header = (props, ref) => {
     const logo = 'logo'
     return (
         <section className="header">
-            <div className="col-1"></div>
+            <div className="w-1/12"></div>
             <section className='flex'>
                 <div className="logo-container">
                     <Logo className={logo} width='100' height='100'/>
@@ -19,7 +19,7 @@ const Header = (props, ref) => {
                 </div>
             </section>
             <style jsx>{style}</style>
-            <div className="col-1"></div>
+            <div className="w-1/12"></div>
         </section>
     )
 }

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { About } from '../containers/About';\nexport default About;","map":{"version":3,"sources":["C:/Users/GBM/Desktop/ermire/src/pages/about.js"],"names":["About"],"mappings":"AAAA,SAASA,KAAT,QAAsB,qBAAtB;AAEA,eAAeA,KAAf","sourcesContent":["import { About } from '../containers/About'\r\n\r\nexport default About\r\n"]},"metadata":{},"sourceType":"module"}

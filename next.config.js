@@ -2,7 +2,7 @@ const withPWA = require('next-pwa');
 const withSass = require('@zeit/next-sass');
 const withCSS = require("@zeit/next-css");
 
-module.exports = withCSS(withSass({
+module.exports = {
     poweredByHeader: false,
     generateEtags: false,
     distDir: '_next',
@@ -19,7 +19,7 @@ module.exports = withCSS(withSass({
 
         return config;
     }
-}));
+};
 
 // module.exports = withPWA({
 //     poweredByHeader: false,
